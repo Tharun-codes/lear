@@ -571,13 +571,4 @@ app.delete("/api/delete-customer", async (req, res) => {
   }
 });
 
-/* ============================================================
-   START SERVER
-============================================================ */
-app.listen(PORT, "0.0.0.0", () => {
-  console.clear();
-  console.log("======================================");
-  console.log("🚀 SERVER IS RUNNING");
-  console.log(`➡️  http://localhost:${PORT}`);
-  console.log("======================================");
-});
+export default app;
